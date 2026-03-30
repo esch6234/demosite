@@ -1,19 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#1a0f16"/>
-      <stop offset="50%" stop-color="#5b203d"/>
-      <stop offset="100%" stop-color="#b34462"/>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffb86c"/>
+      <stop offset="55%" stop-color="#ff8f70"/>
+      <stop offset="100%" stop-color="#7a4e8a"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#156b7a"/>
+      <stop offset="100%" stop-color="#0f8b8d"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <circle cx="210" cy="160" r="108" fill="#121212"/>
-  <circle cx="210" cy="160" r="56" fill="#7a294a"/>
-  <circle cx="210" cy="160" r="14" fill="#e6c47f"/>
-  <circle cx="990" cy="160" r="108" fill="#121212"/>
-  <circle cx="990" cy="160" r="56" fill="#7a294a"/>
-  <circle cx="990" cy="160" r="14" fill="#e6c47f"/>
-  <rect x="350" y="90" width="500" height="140" rx="18" fill="rgba(255,255,255,0.10)" stroke="#e6c47f" stroke-width="3"/>
-  <text x="600" y="145" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" fill="#fff" font-weight="700">Groove Vault Records</text>
-  <text x="600" y="190" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#f7dfaa">Rare spins. Fresh finds. Timeless sound.</text>
+  <rect width="1200" height="320" fill="url(#sky)"/>
+  <rect y="210" width="1200" height="110" fill="url(#sea)"/>
+  <circle cx="955" cy="82" r="46" fill="#ffd27f"/>
+  <path d="M250 230 C310 185, 430 185, 500 230 L500 250 L250 250 Z" fill="#d8b26e"/>
+  <ellipse cx="375" cy="248" rx="138" ry="18" fill="#b78947"/>
+  <rect x="360" y="120" width="16" height="105" rx="8" transform="rotate(-12 368 172)" fill="#7a4d2a"/>
+  <path d="M370 118 C330 92, 305 82, 268 94 C306 94, 334 110, 365 132 Z" fill="#2b9348"/>
+  <path d="M374 116 C408 82, 450 72, 492 92 C449 92, 413 103, 372 133 Z" fill="#55a630"/>
+  <path d="M374 123 C340 128, 308 144, 285 172 C318 156, 347 147, 377 140 Z" fill="#40916c"/>
+  <path d="M376 122 C415 126, 458 142, 492 171 C450 156, 414 145, 373 140 Z" fill="#2d6a4f"/>
+  <circle cx="130" cy="102" r="64" fill="#161616"/>
+  <circle cx="130" cy="102" r="30" fill="#9c2f48"/>
+  <circle cx="130" cy="102" r="9" fill="#f7d488"/>
+  <rect x="430" y="78" width="530" height="112" rx="18" fill="rgba(255,255,255,0.16)" stroke="#ffe8a3" stroke-width="3"/>
+  <text x="695" y="126" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" fill="#ffffff" font-weight="700">Desert Island Records</text>
+  <text x="695" y="162" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#fff4c2">Take only the records you cannot live without.</text>
 </svg>
