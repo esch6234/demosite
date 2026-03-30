@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+  <rect width="700" height="700" fill="#4b2e83"/>
+  <circle cx="350.0" cy="350.0" r="224.0" fill="#151515"/>
+  <circle cx="350.0" cy="350.0" r="126.0" fill="#4b2e83"/>
+  <circle cx="350.0" cy="350.0" r="28.0" fill="#f0d696"/>
+  <rect x="77.0" y="70.0" width="546.0" height="126.0" rx="18" fill="rgba(255,255,255,0.15)"/>
+  <text x="350.0" y="140.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#fff" font-weight="700">Velvet Frequency</text>
+  <text x="350.0" y="574.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#fff">Vinyl Record Thumbnail</text>
+</svg>
